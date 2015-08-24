@@ -6,6 +6,12 @@ public class Rectangle {
     private double width;
 
 
+    public Rectangle( double side)
+    {
+        this.length = side;
+        this.width = side;
+    }
+
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;

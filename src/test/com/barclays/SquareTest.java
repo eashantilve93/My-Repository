@@ -10,14 +10,16 @@ import static org.junit.Assert.*;
 public class SquareTest {
 
     @Test
-    public void shouldCalculatePerimeter() {
-        Square square = new Square(5);
-        assertEquals(20.0,square.perimeter(),0);
+    public void shouldCalculatePerimeter()
+    {
+        Rectangle rectangle= new Rectangle(2);
+        assertEquals(8.0,rectangle.perimeter(),0);
     }
 
     @Test
-    public void shouldCalculateArea() {
-        Square square = new Square(5);
-        assertEquals(25.0,square.area(),0);
+    public void shouldCalculateArea()
+    {
+        Rectangle rectangle= new Rectangle(3);
+        assertEquals(9,rectangle.area(),0);
     }
 }
